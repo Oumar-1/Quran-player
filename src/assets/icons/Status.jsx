@@ -8,7 +8,8 @@ function Status({ state = false, ...props }) {
     <svg
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 24 24'
-      fill='#000000'
+      fill='#0000'
+      stroke='#fff'
       width='30'
       height='30'
       {...props}

@@ -17,7 +17,7 @@ body {
 }
 @layer components {
   .wraper {
-    @apply lg:w-[900px] m-auto lg:px-4 md:px-3;
+    @apply max-w-[516px] lg:max-w-[950px] px-2 m-auto lg:px-4 md:px-3;
   }
   .btn {
     @apply px-2 py-1 md:px-4 md:py-2;
