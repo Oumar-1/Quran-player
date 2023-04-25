@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: #000 url('../assets/noise.webp') repeat;
+  font-family: 'Cairo', sans-serif;
+  @apply text-neutral-100;
+  min-height: 500vh;
+}
+@layer utilities {
+  .bg-gd {
+    mask-image: linear-gradient(0deg, transparent, #000);
+  }
+  .text-fill {
+    -webkit-text-fill-color: ;
+  }
+}
+@layer components {
+  .wraper {
+    @apply lg:w-[900px] m-auto lg:px-4 md:px-3;
+  }
+  .btn {
+    @apply px-2 py-1 md:px-4 md:py-2;
+  }
+}
